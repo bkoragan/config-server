@@ -1,107 +1,76 @@
-[
-	{
-		"id": "cima",
-		"displayName": "Cima Oauth with Id token Flow [deprecated wrong parter name]",
-		"type": "openid",
-		"partner": "comcast",
-		"logout": "/oauth/logout"
-	},
-	{
-		"id": "xerxes",
-		"displayName": "Xerxes SAML test IDP",
-		"type": "saml",
-		"partner": "comcast-dev",
-		"logout": "/logout"
-	},
-	{
-		"id": "cima",
-		"displayName": "Cima Oauth with Id token Flow",
-		"type": "openid",
-		"partner": "Comcast",
-		"logout": "/oauth/logout"
-	},
-	{
-		"id": "sky",
-		"displayName": "Sky UK",
-		"type": "openid",
-		"partner": "sky-uk",
-		"logout": "/oauth/logout"
-	},
-	{
-		"id": "sky",
-		"displayName": "Sky Italia",
-		"type": "openid",
-		"partner": "sky-italia-dev",
-		"logout": "/oauth/logout"
-	},
-	{
-		"id": "shaw-dev",
-		"displayName": "idp shaw-dev however xbo partner space shaw",
-		"type": "openid",
-		"partner": "shaw",
-		"logout": "/openid/logout"
-	},
-	{
-		"id": "shaw-dev",
-		"displayName": "idp and xbo partner space shaw-dev",
-		"type": "openid",
-		"partner": "shaw-dev",
-		"logout": "/openid/logout"
-	},
-	{
-		"id": "rogers",
-		"displayName": "Rogers Oauth with Id token Flow",
-		"type": "openid",
-		"partner": "rogers-dev",
-		"logout": "/openid/logout"
-	},
-	{
-		"id": "ssocircle",
-		"displayName": "SSO Circle",
-		"type": "saml",
-		"partner": "circle",
-		"logout": "/simplelogout"
-	},
-	{
-		"id": "cox",
-		"displayName": "Cox lower environment",
-		"type": "saml",
-		"partner": "cox",
-		"logout": "/simplelogout"
-	},
-	{
-		"id": "cox",
-		"displayName": "Cox lower environment",
-		"type": "openid",
-		"partner": "cox",
-		"logout": "/simplelogout"
-	},
-	{
-		"id": "cox",
-		"displayName": "Cox lower environment",
-		"type": "saml",
-		"partner": "cox-dev",
-		"logout": "/simplelogout"
-	},
-	{
-		"id": "videotron-dev",
-		"displayName": "Videotron Dev",
-		"type": "saml",
-		"partner": "videotron-dev",
-		"logout": "/simplelogout"
-	},
-	{
-		"id": "videotron-dev",
-		"displayName": "Videotron Dev",
-		"type": "openid",
-		"partner": "videotron-dev",
-		"logout": "/simplelogout"
-	},
-	{
-		"id": "comcast-university",
-		"displayName": "XOC University",
-		"type": "openid",
-		"partner": "comcast-university",
-		"logout": ""
-	}
-]
+---
+- id: cima
+  displayName: Cima Oauth with Id token Flow [deprecated wrong parter name]
+  type: openid
+  partner: comcast
+  logout: "/oauth/logout"
+- id: xerxes
+  displayName: Xerxes SAML test IDP
+  type: saml
+  partner: comcast-dev
+  logout: "/logout"
+- id: cima
+  displayName: Cima Oauth with Id token Flow
+  type: openid
+  partner: Comcast
+  logout: "/oauth/logout"
+- id: sky
+  displayName: Sky UK
+  type: openid
+  partner: sky-uk
+  logout: "/oauth/logout"
+- id: sky
+  displayName: Sky Italia
+  type: openid
+  partner: sky-italia-dev
+  logout: "/oauth/logout"
+- id: shaw-dev
+  displayName: idp shaw-dev however xbo partner space shaw
+  type: openid
+  partner: shaw
+  logout: "/openid/logout"
+- id: shaw-dev
+  displayName: idp and xbo partner space shaw-dev
+  type: openid
+  partner: shaw-dev
+  logout: "/openid/logout"
+- id: rogers
+  displayName: Rogers Oauth with Id token Flow
+  type: openid
+  partner: rogers-dev
+  logout: "/openid/logout"
+- id: ssocircle
+  displayName: SSO Circle
+  type: saml
+  partner: circle
+  logout: "/simplelogout"
+- id: cox
+  displayName: Cox lower environment
+  type: saml
+  partner: cox
+  logout: "/simplelogout"
+- id: cox
+  displayName: Cox lower environment
+  type: openid
+  partner: cox
+  logout: "/simplelogout"
+- id: cox
+  displayName: Cox lower environment
+  type: saml
+  partner: cox-dev
+  logout: "/simplelogout"
+- id: videotron-dev
+  displayName: Videotron Dev
+  type: saml
+  partner: videotron-dev
+  logout: "/simplelogout"
+- id: videotron-dev
+  displayName: Videotron Dev
+  type: openid
+  partner: videotron-dev
+  logout: "/simplelogout"
+- id: comcast-university
+  displayName: XOC University
+  type: openid
+  partner: comcast-university
+  logout: ''
